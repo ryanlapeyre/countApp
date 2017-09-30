@@ -18,16 +18,8 @@
 
 <hr>
 
-<button class="Polaris-Button">Example button</button>
 
 
-<script type="application/javascript">
-import {Button} from '@shopify/polaris';
-
-ReactDOM.render(<Button onClick={() => alert('Button clicked!')}>Example button</Button>, domContainerNode)
-
-
-</script>
 
 
 
@@ -43,3 +35,12 @@ ReactDOM.render(<Button onClick={() => alert('Button clicked!')}>Example button<
 <% else %>
   <p>This app has not created any webhooks for this Shop. Add webhooks to your ShopifyApp initializer if you need webhooks</p>
 <% end %>
+
+
+<script type="application/javascript">
+import {Button} from '@shopify/polaris';
+
+ReactDOM.render(<Button onClick={() => alert('Button clicked!')}>Example button</Button>, domContainerNode)
+
+
+</script>
