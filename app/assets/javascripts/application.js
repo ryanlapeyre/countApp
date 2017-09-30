@@ -13,3 +13,4 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+import '@shopify/polaris/styles.css';
