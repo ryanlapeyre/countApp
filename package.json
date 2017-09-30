@@ -1,5 +1,8 @@
 {
   "name": "countApp",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@shopify/polaris": "^1.6.0",
+    "react": "^16.0.0"
+  }
 }
